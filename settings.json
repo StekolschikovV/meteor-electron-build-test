@@ -1,0 +1,19 @@
+{
+  "electron": {
+    "name": "MyApp",
+    "version": "0.1.0",
+    "description": "A really cool app.",
+    "rootUrl": "https://myapp.com",
+    "launchPath": "/app/landing",
+    "sign": "Developer ID Application: ...",
+    "height": 768,
+    "width": 1024,
+    "frame": true,
+    "title-bar-style": "hidden",
+    "resizable": true,
+    "protocols": [{
+      "name": "MyApp",
+      "schemes": ["myapp"]
+    }]
+  }
+}
